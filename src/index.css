@@ -1,0 +1,19 @@
+
+
+*, ::before, ::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.app{
+  width: 100vw;
+  background:#f1f1f1;
+  font-family: sans-serif;
+ 
+
+  --text-color : #98a0a6;
+  --title-color : #1b2437;
+  --btn-color : #507bfc;
+}

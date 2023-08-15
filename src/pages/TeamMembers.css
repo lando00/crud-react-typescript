@@ -1,0 +1,66 @@
+.team-members{
+    padding: 25px 60px;
+}
+
+.title-page{
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
+.title-page .icon-rocket{
+    width: 35px;
+    height: 35px;
+    background: var(--btn-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-page p{
+    color : var(--title-color);
+    font-size: 0.9rem;
+}
+
+.title-page span{
+    color: var(--text-color);
+    font-size: 0.7rem;
+}
+
+.title-page .filter{
+    border-radius: 20px;
+    border: 1px solid #33333318;
+}
+
+.title-page .filter{
+    margin-left: auto;
+    display: flex;
+}
+
+.filter li{
+    list-style-type: none;
+    width: 95px;
+    height: 30px;
+    color : var(--text-color);
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filter .active{
+    border-radius: 20px;
+    background-color: var(--btn-color);
+    color : #fff
+}
+
+.list-member{
+    margin-top: 25px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}

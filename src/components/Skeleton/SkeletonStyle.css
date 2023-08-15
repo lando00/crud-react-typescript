@@ -1,0 +1,61 @@
+.skeletonCard{
+    width: 275px;
+    height: 307px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 20px 0px;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.skeletonCard .avatar{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.skeletonCard .name, .skeletonCard .email{
+    width: 115px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.skeletonCard .email{
+    width: 180px;
+}
+
+.skeletonCard .action{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px;
+    gap: 10px;
+}
+
+.skeletonCard .action div{
+    width: 110px;
+    border-radius: 20px;  
+}
+
+.skeletonCard .avatar, .skeletonCard .name, .skeletonCard .email, .skeletonCard .action div{
+    background-color: hsl(0, 1%, 85%);
+    opacity: .7;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeletonCard .name, .skeletonCard .email, .skeletonCard .action div{
+    height: 10px;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(0, 1%, 85%);
+    }
+
+    100%{
+        background-color: hsl(0, 1%, 95%);
+    }
+}

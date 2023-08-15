@@ -1,0 +1,13 @@
+.cardUpdateMember{
+    position: absolute;
+    z-index: 999;
+    box-shadow: none;
+}
+
+.cardUpdateMember .icon-close{
+    width: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}

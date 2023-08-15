@@ -1,0 +1,24 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Marie Walters",
+      "email": "mariewalters@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "John Walters",
+      "email": "johnwalters@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "email": "johndoe@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Jane Doe",
+      "email": "janedoe@gmail.com"
+    }
+  ]
+}

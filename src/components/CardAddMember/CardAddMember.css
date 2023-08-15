@@ -1,0 +1,25 @@
+.card button{
+    padding: 8px 45px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: var(--btn-color);
+    color : #fff;
+    cursor: pointer;
+}
+
+.card button:active{
+    background-color: #3f5fc2;
+}
+
+.card input{
+    text-align: center;
+    border: none;
+    outline: none;
+    caret-color: var(--btn-color);
+}
+
+.card .email::placeholder{
+    color: var(--text-color);
+    font-size: 0.8rem;
+}
